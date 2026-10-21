@@ -40,3 +40,16 @@ htmlcov/
 # IDE and local configuration
 .vscode/
 .idea/
+
+# Flow A: local customer usage test data and generated artifacts
+data/flow_a_demo/*.xlsx
+artifacts/flow_a/
+
+# Local customer data and generated workflow artifacts
+data/
+artifacts/
+.DS_Store
+__pycache__/
+*.py[cod]
+*.bak
+*.bak2
